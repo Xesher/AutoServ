@@ -1,12 +1,6 @@
-<?php $title='Наши проекты'; $id='project';?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../style/mine.css">
-    <title><?php echo $title; ?></title>
-</head>
-<body>
+@extends('layout.master')
+
+@section('container')
     <main>
         <div class="content">
             <div class="article">
@@ -20,13 +14,11 @@
                 <ul>
                     <li><a href="#">Новые проекты</a> </li>
                     <li><a href="#">Топ просмотров</a> </li>
-<!--                    <li><a href="#"></a> </li>-->
-<!--                    <li><a href="#"></a> </li>-->
-<!--                    <li><a href="#"></a> </li>-->
-<!--                    <li><a href="#"></a> </li>-->
-                 </ul>
+                    <!--                    <li><a href="#"></a> </li>-->
+                    <!--                    <li><a href="#"></a> </li>-->
+                    <!--                    <li><a href="#"></a> </li>-->
+                    <!--                    <li><a href="#"></a> </li>-->
+                </ul>
             </nav>
         </aside>
     </main>
-</body>
-</html>

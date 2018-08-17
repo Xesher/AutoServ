@@ -1,0 +1,42 @@
+*{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+main{
+  width: 100%;
+}
+.content{
+  width:70%;
+  height: auto;
+  float: left;
+}
+aside{
+  width: 30%;
+  float: left;
+}
+#header{
+  width: 100%;
+  float: left;
+
+}
+.navbar{
+  width: auto;
+}
+.nav-unit a{
+  float: left;
+  list-style: none;
+  text-decoration: none;
+  margin: 1rem;
+  padding: 1rem;
+  display: inline-flex;
+
+}
+.nav-unit :hover{
+  background-color: gray;
+}
+.nav-pillss{
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid gray;
+}
