@@ -1,14 +1,25 @@
-<header id="header">
-    <nav class="navbar">
-        <div class="container-fluid" >
-            <ul class="nav-pillss">
-                <li class="nav-unit"><a href="#">Главная</a></li>
-                <li class="nav-unit"><a href="blocks/projects.php">Наши проекты</a></li>
-                <li class="navbar-brand" ><img src="img/logo.png" title="AvtoSTO" alt="AvtoSTO"></li>
-                <li class="nav-unit"><a href="#">Где мы находимся?</a></li>
-                <li class="nav-unit"><a href="#">О нас</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="hero_img"> <img src="img/hero2.jpg"></div>
+<header id="header" class="container-fluid">
+        <ul class="nav d-flex justify-content-around">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Дианостика</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Услуи и сервис </a>
+            </li>
+            <li class="nav-item">
+                <img class="nav-item--img" src="{{asset('img/logo.png')}}" alt="">
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Кузовные работы</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">О компании</a>
+            </li>
+        </ul>
 </header>

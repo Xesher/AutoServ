@@ -8,7 +8,7 @@ use Illuminate\View\View;
 class PageController extends Controller
 {
     public function index(): View{
-        return view('pages.pages');
+        return view('pages.index');
     }
 //    public function object(): View{
 //        return view('pages.objects');
