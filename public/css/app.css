@@ -10478,14 +10478,25 @@ a.text-dark:focus {
 
 .header__info {
   background-color: #1b1e21;
-  color: white;
 }
 
 .header__info .header__address,
-.header__info .header__time {
+.header__info .header__time,
+.header__info .header__login {
   font-size: 1rem;
   margin: 0;
   padding: .5rem 0;
+  color: white;
+}
+
+.header__info .header__login--log,
+.header__info .header__login--reg {
+  color: white;
+}
+
+.header__info .header__login--log:hover,
+.header__info .header__login--reg:hover {
+  color: red;
 }
 
 .header__body {

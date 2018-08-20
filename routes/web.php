@@ -7,3 +7,7 @@ Route::get('/', 'PageController@index')->name('index');
 //Route::get('/vacancy', 'PageController@vacancy')->name('vacancy');
 //Route::get('/news', 'PageController@news')->name('news');
 //$router->post('questionnaire', 'MailController@questionnaire')->name('questionnaire');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
