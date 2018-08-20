@@ -1,0 +1,21 @@
+.index {
+  padding: 0;
+  .carousel-item:first-child {
+    background-image: url("/img/slide1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 45rem;
+  }
+  .carousel-item:nth-child(2) {
+    background-image: url("/img/slide2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 45rem;
+  }
+  .carousel-item:last-child {
+    background-image: url("/img/slide3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 45rem;
+  }
+}
