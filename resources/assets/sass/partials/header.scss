@@ -10,7 +10,7 @@
       color: white;
     }
     .header__login{
-      &--log, &--reg{
+      &--log, &--reg, &--auth{
         color: white;
         &:hover{
           color: red;

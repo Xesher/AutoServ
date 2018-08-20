@@ -10490,12 +10490,14 @@ a.text-dark:focus {
 }
 
 .header__info .header__login--log,
-.header__info .header__login--reg {
+.header__info .header__login--reg,
+.header__info .header__login--auth {
   color: white;
 }
 
 .header__info .header__login--log:hover,
-.header__info .header__login--reg:hover {
+.header__info .header__login--reg:hover,
+.header__info .header__login--auth:hover {
   color: red;
 }
 
