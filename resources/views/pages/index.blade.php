@@ -25,6 +25,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        @include('partials.callme')
     </div>
     @push('scripts')
         <script>
@@ -32,6 +33,5 @@
                 interval: 2000
             })
         </script>
-
     @endpush
 @endsection

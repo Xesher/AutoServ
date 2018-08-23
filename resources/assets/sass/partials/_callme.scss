@@ -1,0 +1,55 @@
+.call-me {
+  padding: 0;
+  border: 5px solid black;
+  border-radius: 1rem;
+  &__header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+  }
+  &__form {
+    .form__line--1 {
+      .form-group {
+        margin: 0 1rem;
+        width: 23.5rem;
+      }
+    }
+
+    .form__line--2 {
+      .form-group {
+        margin: 0 1rem;
+        & #work {
+          width: 32.7rem;
+        }
+        & #mileage, #spear, #phone {
+          width: 9.6rem;
+        }
+
+      }
+    }
+
+    .form__line--3 {
+      .form-group {
+        margin: 0 1rem;
+      }
+    }
+
+    input {
+      width: initial;
+      padding-top: 0;
+      padding-bottom: 0;
+      height: auto;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+    }
+
+    .red-require {
+      color: red;
+    }
+  }
+}

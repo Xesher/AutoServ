@@ -10,7 +10,9 @@ class PageController extends Controller
 {
     public function index(): View
     {
-        return view('pages.index');
+        $cars = DB::table('cars')
+            ->get();
+        return view('pages.index', ['cars' => $cars]);
     }
 //    public function object(): View{
 //        return view('pages.objects');
