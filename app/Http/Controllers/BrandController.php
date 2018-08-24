@@ -8,9 +8,9 @@ class BrandController extends Controller
 
     public function index()
     {
-        $cars = DB::table('cars')->get();
+        $cars = DB::table('brands')->get();
 
-        return view('partials.callme', ['cars' => $cars]);
+        return view('partials.callme', ['brands' => $cars]);
 
     }
 

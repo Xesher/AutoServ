@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Brands;
+use App\Brand;
 
-class BrandsTableSeeder extends Seeder
+class BrandTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,7 +13,7 @@ class BrandsTableSeeder extends Seeder
 
     public function run()
     {
-        $brands = [
+        $brand = [
             ['name' => 'Acura'],
             ['name' => 'Alfa Romeo'],
             ['name' => 'Aston Martin'],
@@ -86,8 +86,25 @@ class BrandsTableSeeder extends Seeder
             ['name' => 'ГАЗ'],
             ['name' => 'УАЗ']
         ];
-        foreach ($brands as $item) {
-            Brand::created($item['name']);
+        foreach ($brand as $item) {
+            Brand::create(['name'=>$item['name']]);
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
